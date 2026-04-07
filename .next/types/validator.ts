@@ -56,6 +56,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../src/app/api/aurinko/auth-url/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/aurinko/auth-url">> = Specific
+  const handler = {} as typeof import("../../src/app/api/aurinko/auth-url/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/api/clerk/webhook/route.ts
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/api/clerk/webhook">> = Specific

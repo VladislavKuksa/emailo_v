@@ -4,11 +4,11 @@
     "/": {
       "files": [
         "server/edge/chunks/_b66f904d._.js",
-        "server/edge/chunks/node_modules_@clerk_shared_dist_runtime_70eff234._.js",
+        "server/edge/chunks/node_modules_@clerk_shared_dist_runtime_e9810f81._.js",
         "server/edge/chunks/node_modules_@clerk_backend_dist_012c0fed._.js",
-        "server/edge/chunks/node_modules_@clerk_nextjs_dist_esm_47574ff2._.js",
+        "server/edge/chunks/node_modules_@clerk_nextjs_dist_esm_9236236a._.js",
         "server/edge/chunks/[root-of-the-server]__8978dbac._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_e57f3180.js"
+        "server/edge/chunks/turbopack-edge-wrapper_95b5e46f.js"
       ],
       "name": "middleware",
       "page": "/",
@@ -20,10 +20,6 @@
         {
           "regexp": "/:nextData(_next/data/[^/]{1,})?/(api|trpc)(.*){(\\\\.json)}?",
           "originalSource": "/(api|trpc)(.*)"
-        },
-        {
-          "regexp": "/:nextData(_next/data/[^/]{1,})?/api/clerk/webhook(.*){(\\\\.json)}?",
-          "originalSource": "/api/clerk/webhook(.*)"
         }
       ],
       "wasm": [],
@@ -31,9 +27,9 @@
       "env": {
         "__NEXT_BUILD_ID": "development",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "LgoR+rFFoRCoLr3f8KvQIMq70WyUsLWz9zXNbmiZfh4=",
-        "__NEXT_PREVIEW_MODE_ID": "4787209a673becffa563b0eeb3deb5b7",
-        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "62ea0f4999298a7a164c574a48d8c96c110cd37d63ea4340366b5d6b6c1a5b35",
-        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "0e6701ea435ad9ff915069c0b6712dd0eb23b923fd9f6e1d4980f7467de51115"
+        "__NEXT_PREVIEW_MODE_ID": "345716514e94e154e6d0b27a27444663",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "665138b8ff2ef76170ac23a6340011c9ec19987e02a48a3e3bae2b1a7dc58a1b",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "987f8d291bab864e1f629f85c426a2af2f9cf8e5abf22f7137d96e242f2b3b25"
       }
     }
   },

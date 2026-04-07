@@ -1,3 +1,4 @@
 {
+  "/api/aurinko/auth-url/route": "app/api/aurinko/auth-url/route.js",
   "/page": "app/page.js"
 }

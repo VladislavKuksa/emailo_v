@@ -6,9 +6,5 @@
   {
     "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/(api|trpc))(.*)(\\\\.json)?[\\/#\\?]?$",
     "originalSource": "/(api|trpc)(.*)"
-  },
-  {
-    "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/api\\/clerk\\/webhook(.*)(\\\\.json)?[\\/#\\?]?$",
-    "originalSource": "/api/clerk/webhook(.*)"
   }
 ]
